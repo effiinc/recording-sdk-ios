@@ -1,0 +1,6 @@
+framework module ScreenRecordingSDK {
+  umbrella header "ScreenRecordingSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
