@@ -1,6 +1,11 @@
 framework module ScreenRecordingSDK {
-  umbrella header "ScreenRecordingSDK-umbrella.h"
+  umbrella header "ScreenRecordingSDK.h"
 
   export *
   module * { export * }
+}
+
+module ScreenRecordingSDK.Swift {
+    header "ScreenRecordingSDK-Swift.h"
+    requires objc
 }
