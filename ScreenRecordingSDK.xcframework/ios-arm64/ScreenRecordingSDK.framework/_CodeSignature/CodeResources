@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ScreenRecordingSDK-Swift.h</key>
 		<data>
-		cUT++gd6eV+GB8+H1d0850c3yAk=
+		n1Zi6v5IpfhZkB9Xa9nUzd2O21A=
 		</data>
 		<key>Headers/ScreenRecordingSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		q6QvPcPDlILER2JmYs59RRrofYU=
+		yJ2XUIAh4ZhuUHDHDFI3GvIQ8K8=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		JOConhqKJi9EfkZr4HPb6OBq0E4=
+		x0CayCJlhnOoY2fUAtlNi7MX5I4=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,15 +34,23 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		q6QvPcPDlILER2JmYs59RRrofYU=
+		yJ2XUIAh4ZhuUHDHDFI3GvIQ8K8=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		JOConhqKJi9EfkZr4HPb6OBq0E4=
+		x0CayCJlhnOoY2fUAtlNi7MX5I4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		4zwB0CaS1BloqQ+KSRpfyI22FjQ=
+		</data>
+		<key>ResourceBundle.bundle/Info.plist</key>
+		<data>
+		p9n5bbp7sGCi6yIRJOqrgyQ7XLQ=
+		</data>
+		<key>ResourceBundle.bundle/recordingStopped.gif</key>
+		<data>
+		mUb7uo02crBBId1nkpIRZww9DR8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sbpEPA9w4duwu9XtqS9VZAq1xpVbmKrczL9pM8uBP1I=
+			jIgbM35Lj8lu54RKQGwdLQ6HbduoCz9SNf8YADSRRP4=
 			</data>
 		</dict>
 		<key>Headers/ScreenRecordingSDK.h</key>
@@ -72,14 +80,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			khtPbPYc4WGAEIzkEEZu+ebId+Dz72B0iYFP8vFTl7A=
+			TicZ/yWxxHnrLkUIYYehRp40AhBe9mG46evLaim2URg=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rnu0SmOyw2uXJdy5ZNISE4/YJG9AxJDLJP0Gov4idB4=
+			3NlwgMPeQheUy4ecyiHY9mRpMdw5C2MNANr9kpSb+t4=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			khtPbPYc4WGAEIzkEEZu+ebId+Dz72B0iYFP8vFTl7A=
+			TicZ/yWxxHnrLkUIYYehRp40AhBe9mG46evLaim2URg=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rnu0SmOyw2uXJdy5ZNISE4/YJG9AxJDLJP0Gov4idB4=
+			3NlwgMPeQheUy4ecyiHY9mRpMdw5C2MNANr9kpSb+t4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -108,6 +116,20 @@
 			<key>hash2</key>
 			<data>
 			TfwEm27cJViwoQp51WgcErHojl5eScxDm2zk2o7rdBk=
+			</data>
+		</dict>
+		<key>ResourceBundle.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wTlEHUnkG1LHIxMuvuJ+iOiNdku7I44LWC6cW7Pl3pc=
+			</data>
+		</dict>
+		<key>ResourceBundle.bundle/recordingStopped.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H9ZF58e2XE6wPyEOFBHrvN/SkU81bbzKgLaSvJhXtB0=
 			</data>
 		</dict>
 	</dict>
