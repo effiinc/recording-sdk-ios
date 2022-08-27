@@ -196,7 +196,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import ReplayKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -215,20 +214,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+@class NSString;
 
 SWIFT_CLASS("_TtC18ScreenRecordingSDK22ScreenRecordingManager")
 @interface ScreenRecordingManager : NSObject
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo storeResultToCameraRoll:(BOOL)storeResultToCameraRoll OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-@class RPScreenRecorder;
-@class RPPreviewViewController;
-
-@interface ScreenRecordingManager (SWIFT_EXTENSION(ScreenRecordingSDK)) <RPScreenRecorderDelegate>
-- (void)screenRecorder:(RPScreenRecorder * _Nonnull)screenRecorder didStopRecordingWithPreviewViewController:(RPPreviewViewController * _Nullable)previewViewController error:(NSError * _Nullable)error;
-@end
 
 
 

@@ -13,9 +13,7 @@ import UIKit
 import _Concurrency
 import ffmpegkit
 @objc final public class ScreenRecordingManager : ObjectiveC.NSObject {
-  public init(withToken token: Swift.String, appInfo: Swift.String, storeResultToCameraRoll: Swift.Bool = false)
+  @objc convenience public init(withToken token: Swift.String, appInfo: Swift.String)
+  @objc public init(withToken token: Swift.String, appInfo: Swift.String, storeResultToCameraRoll: Swift.Bool = false)
   @objc deinit
-}
-extension ScreenRecordingSDK.ScreenRecordingManager : ReplayKit.RPScreenRecorderDelegate {
-  @objc final public func screenRecorder(_ screenRecorder: ReplayKit.RPScreenRecorder, didStopRecordingWith previewViewController: ReplayKit.RPPreviewViewController?, error: Swift.Error?)
 }
