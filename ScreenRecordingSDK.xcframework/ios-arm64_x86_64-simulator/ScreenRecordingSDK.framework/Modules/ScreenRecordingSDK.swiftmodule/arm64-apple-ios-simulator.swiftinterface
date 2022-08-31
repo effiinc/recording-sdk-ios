@@ -17,3 +17,8 @@ import ffmpegkit
   @objc public init(withToken token: Swift.String, appInfo: Swift.String, storeResultToCameraRoll: Swift.Bool = false)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers @objc public class ScreenRecordingEventLogger : ObjectiveC.NSObject {
+  @objc public static func logEvent(event: Swift.String)
+  @objc public static func logEvent(type: Swift.String = "generic", event: Swift.String)
+  @objc deinit
+}

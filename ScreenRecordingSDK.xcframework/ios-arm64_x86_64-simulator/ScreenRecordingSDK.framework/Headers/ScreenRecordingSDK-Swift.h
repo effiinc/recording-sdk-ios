@@ -218,6 +218,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSString;
 
+SWIFT_CLASS("_TtC18ScreenRecordingSDK26ScreenRecordingEventLogger")
+@interface ScreenRecordingEventLogger : NSObject
++ (void)logEventWithEvent:(NSString * _Nonnull)event;
++ (void)logEventWithType:(NSString * _Nonnull)type event:(NSString * _Nonnull)event;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC18ScreenRecordingSDK22ScreenRecordingManager")
 @interface ScreenRecordingManager : NSObject
 - (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo;
@@ -459,6 +468,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSString;
+
+SWIFT_CLASS("_TtC18ScreenRecordingSDK26ScreenRecordingEventLogger")
+@interface ScreenRecordingEventLogger : NSObject
++ (void)logEventWithEvent:(NSString * _Nonnull)event;
++ (void)logEventWithType:(NSString * _Nonnull)type event:(NSString * _Nonnull)event;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC18ScreenRecordingSDK22ScreenRecordingManager")
 @interface ScreenRecordingManager : NSObject
