@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y67oUMpZJMVoLbddZLy1UtDDk/A=
+		UQNIUoS9ZqH/X5574evU1U+7ly0=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VMGrBURGeNHd7JnMCr9fTt9IeTA=
+		IcKfYAJDuozQSekrwm43IFin9T8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UvjmqLgq2JO+EKYHsd1FK4yf+w6+43Y2OgFqymYic3w=
+			hjIJ7BkO0A5rDed8Qu6b12tPmCErHeNBrJo7d4+jHlQ=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -108,7 +108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F0SEtT+RYIaqmPIKprLtrx2saoubvCwrmXtobndgGTU=
+			byyiSc/OPkuW78nAtlOgeinLLhvDskG/gSKlTicikfw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
