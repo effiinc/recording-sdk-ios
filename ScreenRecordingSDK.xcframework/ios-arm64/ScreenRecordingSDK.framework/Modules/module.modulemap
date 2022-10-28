@@ -6,6 +6,6 @@ framework module ScreenRecordingSDK {
 }
 
 module ScreenRecordingSDK.Swift {
-    header "ScreenRecordingSDK-Swift.h"
-    requires objc
+  header "ScreenRecordingSDK-Swift.h"
+  requires objc
 }
