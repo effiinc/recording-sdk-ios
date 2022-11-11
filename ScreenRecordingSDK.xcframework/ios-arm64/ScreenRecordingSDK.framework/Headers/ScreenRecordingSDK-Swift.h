@@ -280,6 +280,7 @@ SWIFT_CLASS("_TtC18ScreenRecordingSDK22ScreenRecordingManager")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif

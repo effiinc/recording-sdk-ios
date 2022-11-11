@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ScreenRecordingSDK-Swift.h</key>
 		<data>
-		fQJkDb/aWcSohR0IKlBihjewKBA=
+		8k/mhE3XSSTc+SwifXVmlF3K9CU=
 		</data>
 		<key>Headers/ScreenRecordingSDK.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cwBx2uqxaNMO4a1R0SP7e4wdcAs=
+		/wy+G4DfEjc4OsPywRSao/Md2w0=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YqiuoF7uErUGur1Qk3M0gkQDxJU=
+		21CDxz4clUDHHQMfXXXvkbNtGcs=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		n9jGZBLv5I4iZx6miZCKIlIhnBM=
+		cOwZ4e0oqf2msjWuHK+hFg4SSi0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ResourceBundle.bundle/Info.plist</key>
 		<data>
-		eqFobAYHiCtPfIYLwDC6nTSP3CM=
+		vsSlLBfYtOzAj+SflUG1DgwoF5I=
 		</data>
 		<key>ResourceBundle.bundle/recordingStopped.gif</key>
 		<data>
-		mUb7uo02crBBId1nkpIRZww9DR8=
+		BRkTh4DU8J6KPV0AZPMQFS198Sg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xh1Lx3xa9HnfGYOz4tB8XWOfnb+w1aZgmy8JJkYaEY8=
+			GdJqZ/RDnlTJNGSJoygQ6tPUcAM4SGFLv6WyExZt02U=
 			</data>
 		</dict>
 		<key>Headers/ScreenRecordingSDK.h</key>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A12xj9cfA5N7G0zrWNdDkSodjoJ90JdbGJtmhHlAaS0=
+			aRAH8OCnlV8M5CaFBn9NpnYGYsfpc9q+pVFGxqsp+PE=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQNp+vlmj/QHl2aVH/Pb0k/P14ooygSQR8xT5iXn3v0=
+			EQU8BeUauuejb0hr3U1qrVi9Kbp6miN8YwJyl7uFbdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yQczpfdF2q6q8HUi4XoNwTYkb8JRo+oxIG0j2qu0A0E=
+			q3/GC2T6gvD11E4YwxzLAClJKB9hmPvnoo4S9V3dwlQ=
 			</data>
 		</dict>
 		<key>ResourceBundle.bundle/recordingStopped.gif</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H9ZF58e2XE6wPyEOFBHrvN/SkU81bbzKgLaSvJhXtB0=
+			ZWDSPSUeBU5dafBpWF+Viu70mM5ge9dGeN0ExJMovSo=
 			</data>
 		</dict>
 	</dict>
