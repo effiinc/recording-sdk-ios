@@ -683,7 +683,7 @@
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 1,
-      "value": "4"
+      "value": "5"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
@@ -786,7 +786,7 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9909,
+      "offset": 10321,
       "length": 5,
       "value": "false"
     },
