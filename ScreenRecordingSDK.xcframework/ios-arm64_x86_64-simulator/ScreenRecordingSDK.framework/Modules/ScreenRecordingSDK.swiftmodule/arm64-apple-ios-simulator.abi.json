@@ -267,7 +267,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(withToken:appInfo:)",
+            "printedName": "init(withToken:appInfo:userId:enableRecording:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -286,13 +286,25 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingManager(im)initWithToken:appInfo:",
-            "mangledName": "$s18ScreenRecordingSDK0aB7ManagerC9withToken7appInfoACSS_SStcfc",
+            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingManager(im)initWithToken:appInfo:userId:enableRecording:",
+            "mangledName": "$s18ScreenRecordingSDK0aB7ManagerC9withToken7appInfo6userId06enableB0ACSS_S2SSbtcfc",
             "moduleName": "ScreenRecordingSDK",
-            "objc_name": "initWithToken:appInfo:",
+            "objc_name": "initWithToken:appInfo:userId:enableRecording:",
             "declAttributes": [
               "AccessControl",
               "Convenience",
@@ -303,13 +315,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(withToken:appInfo:storeResultToCameraRoll:)",
+            "printedName": "init(withToken:appInfo:userId:storeResultToCameraRoll:enableRecording:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ScreenRecordingManager",
                 "printedName": "ScreenRecordingSDK.ScreenRecordingManager",
                 "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -329,18 +347,52 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingManager(im)initWithToken:appInfo:storeResultToCameraRoll:",
-            "mangledName": "$s18ScreenRecordingSDK0aB7ManagerC9withToken7appInfo23storeResultToCameraRollACSS_SSSbtcfc",
+            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingManager(im)initWithToken:appInfo:userId:storeResultToCameraRoll:enableRecording:",
+            "mangledName": "$s18ScreenRecordingSDK0aB7ManagerC9withToken7appInfo6userId23storeResultToCameraRoll06enableB0ACSS_S2SS2btcfc",
             "moduleName": "ScreenRecordingSDK",
-            "objc_name": "initWithToken:appInfo:storeResultToCameraRoll:",
+            "objc_name": "initWithToken:appInfo:userId:storeResultToCameraRoll:enableRecording:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingManager(im)setUserId:",
+            "mangledName": "$s18ScreenRecordingSDK0aB7ManagerC9setUserIdyySSF",
+            "moduleName": "ScreenRecordingSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -805,6 +857,13 @@
       "value": "\"responseQueue\""
     },
     {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "Array",
+      "offset": 553,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 931,
@@ -898,126 +957,140 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
-      "offset": 592,
+      "offset": 594,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
-      "offset": 653,
+      "offset": 655,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
-      "offset": 717,
+      "offset": 719,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 867,
+      "offset": 869,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 914,
+      "offset": 916,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 966,
+      "offset": 968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
+      "offset": 1004,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "Array",
+      "offset": 1133,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
       "length": 18,
       "value": "\"apiRequestsQueue\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1276,
       "length": 21,
       "value": "\"idleCheckTimerQueue\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1361,
       "length": 24,
       "value": "\"writerSwitchTimerQueue\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1441,
       "length": 16,
       "value": "\"recordingQueue\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1510,
       "length": 39,
       "value": "\"videoVideoConvertingAndStreamingQueue\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1664,
+      "offset": 1737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2728,
+      "offset": 2978,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6638,
+      "offset": 7708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6691,
+      "offset": 7761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19621,
+      "offset": 21355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19660,
+      "offset": 21394,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19700,
+      "offset": 21434,
       "length": 3,
       "value": "120"
     },
@@ -1038,7 +1111,7 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 643,
       "length": 9,
       "value": "\"generic\""
     },

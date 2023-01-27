@@ -15,8 +15,9 @@ import _Concurrency
 import _StringProcessing
 import ffmpegkit
 @objc final public class ScreenRecordingManager : ObjectiveC.NSObject {
-  @objc convenience public init(withToken token: Swift.String, appInfo: Swift.String)
-  @objc public init(withToken token: Swift.String, appInfo: Swift.String, storeResultToCameraRoll: Swift.Bool = false)
+  @objc convenience public init(withToken token: Swift.String, appInfo: Swift.String, userId: Swift.String, enableRecording: Swift.Bool)
+  @objc public init(withToken token: Swift.String, appInfo: Swift.String, userId: Swift.String, storeResultToCameraRoll: Swift.Bool = false, enableRecording: Swift.Bool)
+  @objc final public func setUserId(_ userId: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class ScreenRecordingEventLogger : ObjectiveC.NSObject {

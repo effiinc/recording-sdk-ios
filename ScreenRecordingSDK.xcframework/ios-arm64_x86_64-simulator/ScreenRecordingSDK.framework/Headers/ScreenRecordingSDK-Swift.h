@@ -265,8 +265,9 @@ SWIFT_CLASS("_TtC18ScreenRecordingSDK26ScreenRecordingEventLogger")
 
 SWIFT_CLASS("_TtC18ScreenRecordingSDK22ScreenRecordingManager")
 @interface ScreenRecordingManager : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo;
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo storeResultToCameraRoll:(BOOL)storeResultToCameraRoll OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo userId:(NSString * _Nonnull)userId enableRecording:(BOOL)enableRecording;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo userId:(NSString * _Nonnull)userId storeResultToCameraRoll:(BOOL)storeResultToCameraRoll enableRecording:(BOOL)enableRecording OBJC_DESIGNATED_INITIALIZER;
+- (void)setUserId:(NSString * _Nonnull)userId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -556,8 +557,9 @@ SWIFT_CLASS("_TtC18ScreenRecordingSDK26ScreenRecordingEventLogger")
 
 SWIFT_CLASS("_TtC18ScreenRecordingSDK22ScreenRecordingManager")
 @interface ScreenRecordingManager : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo;
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo storeResultToCameraRoll:(BOOL)storeResultToCameraRoll OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo userId:(NSString * _Nonnull)userId enableRecording:(BOOL)enableRecording;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appInfo:(NSString * _Nonnull)appInfo userId:(NSString * _Nonnull)userId storeResultToCameraRoll:(BOOL)storeResultToCameraRoll enableRecording:(BOOL)enableRecording OBJC_DESIGNATED_INITIALIZER;
+- (void)setUserId:(NSString * _Nonnull)userId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
