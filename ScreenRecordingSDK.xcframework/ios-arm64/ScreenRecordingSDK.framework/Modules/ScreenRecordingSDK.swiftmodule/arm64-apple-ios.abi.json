@@ -732,10 +732,10 @@
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
-      "kind": "IntegerLiteral",
+      "kind": "StringLiteral",
       "offset": 297,
-      "length": 1,
-      "value": "5"
+      "length": 10,
+      "value": "\"7-beta.1\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
@@ -1062,35 +1062,35 @@
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7708,
+      "offset": 7809,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7761,
+      "offset": 7862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21355,
+      "offset": 22432,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21394,
+      "offset": 22471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21434,
+      "offset": 22511,
       "length": 3,
       "value": "120"
     },
