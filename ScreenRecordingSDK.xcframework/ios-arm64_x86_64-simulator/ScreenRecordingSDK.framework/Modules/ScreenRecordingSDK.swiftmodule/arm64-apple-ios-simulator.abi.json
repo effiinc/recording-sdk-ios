@@ -734,8 +734,8 @@
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "StringLiteral",
       "offset": 297,
-      "length": 10,
-      "value": "\"7-beta.1\""
+      "length": 3,
+      "value": "\"7\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
