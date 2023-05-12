@@ -119,6 +119,13 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "ScreenRecordingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "ScreenRecordingSDK",
         "declAttributes": [
           "RawDocComment"
@@ -128,6 +135,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScreenRecordingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ScreenRecordingSDK",
         "declAttributes": [
@@ -173,6 +190,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScreenRecordingSDK"
       },
       {
         "kind": "Import",
@@ -487,50 +511,10 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
-        "declKind": "Import",
-        "moduleName": "ScreenRecordingSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "ScreenRecordingEventLogger",
         "printedName": "ScreenRecordingEventLogger",
         "children": [
-          {
-            "kind": "Function",
-            "name": "logEvent",
-            "printedName": "logEvent(event:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingEventLogger(cm)logEventWithEvent:",
-            "mangledName": "$s18ScreenRecordingSDK0aB11EventLoggerC03logD05eventySS_tFZ",
-            "moduleName": "ScreenRecordingSDK",
-            "static": true,
-            "objc_name": "logEventWithEvent:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
           {
             "kind": "Function",
             "name": "logEvent",
@@ -561,6 +545,36 @@
             "moduleName": "ScreenRecordingSDK",
             "static": true,
             "objc_name": "logEventWithType:event:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logEvent",
+            "printedName": "logEvent(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ScreenRecordingSDK@objc(cs)ScreenRecordingEventLogger(cm)logEventWithEvent:",
+            "mangledName": "$s18ScreenRecordingSDK0aB11EventLoggerC03logD05eventySS_tFZ",
+            "moduleName": "ScreenRecordingSDK",
+            "static": true,
+            "objc_name": "logEventWithEvent:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -601,10 +615,11 @@
         "moduleName": "ScreenRecordingSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -675,452 +690,4897 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Extensions\/UIDeviceExtensions.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 103,
+      "value": "\"Cannot get window scene. You need to initialize the SDK in SceneDelegate's scenewillConnectTo method \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 896,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1336,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1832,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 1974,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2077,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2093,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3388,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3514,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3532,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3689,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/ScreenRecordingManager+UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3706,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 271,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIDeviceExtensions.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Extensions\/UIDeviceExtensions.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIDeviceExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 466,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 32,
+      "value": "\"Keychain: nothing to delete...\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 864,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 50,
+      "value": "\"Keychain: value not added - Error: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 63,
+      "value": "\"Keychain: unable to delete from keychain: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1975,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1997,
+      "length": 51,
+      "value": "\"Keychain: unable to load data - \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2047,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2259,
+      "length": 61,
+      "value": "\"Keychain: error parsing keychain result - \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2319,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 633,
+      "length": 38,
+      "value": "\"화면녹화를 허용해 주세요.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 93,
+      "value": "\"우리 회사에서는 effi의 테스트앱 녹화\n서비스를 사용하고 있습니다.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 27,
+      "value": "\"화면녹화 허용하기\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 14,
+      "value": "\"안할래요\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 58,
+      "value": "\"사용이 감지되면 녹화가 다시 시작됩니다.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 41,
+      "value": "\"녹화가 다시 시작되었습니다.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 40,
+      "value": "\"화면녹화가 중지되었습니다.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 49,
+      "value": "\"원할 때 언제라도 다시 시작하세요.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 8,
+      "value": "\"닫기\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1553,
+      "length": 45,
+      "value": "\"마지막 비디오 조각을 보내는 중\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1728,
+      "length": 37,
+      "value": "\"You need to allow screen recording.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1827,
+      "length": 61,
+      "value": "\"Your company is using test build recording service of effi.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1950,
+      "length": 17,
+      "value": "\"Allow recording\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 15,
+      "value": "\"No, thank you\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 48,
+      "value": "\"Recording starts again when usage is detected.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2221,
+      "length": 30,
+      "value": "\"Recording has started again.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2311,
+      "length": 31,
+      "value": "\"Screen recording has stopped.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2408,
+      "length": 27,
+      "value": "\"You can restart any time.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2487,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 30,
+      "value": "\"Sending last video fragment.\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 2724,
+      "length": 4,
+      "value": "\"ko\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 970,
+      "length": 20,
+      "value": "\"\/tokens\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 38,
+      "value": "\"\/tokens\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1091,
+      "length": 1,
+      "value": "\"\/recordings\/create\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 53,
+      "value": "\"\/tokens\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1224,
+      "length": 1,
+      "value": "\"\/recordings\/update\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 63,
+      "value": "\"\/tokens\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 1,
+      "value": "\"\/recordings\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 1,
+      "value": "\"\/fragments\/create\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 77,
+      "value": "\"\/tokens\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1523,
+      "length": 1,
+      "value": "\"\/recordings\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 1,
+      "value": "\"\/fragments\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1573,
+      "length": 1,
+      "value": "\"\/events\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1658,
+      "length": 53,
+      "value": "\"\/tokens\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1677,
+      "length": 1,
+      "value": "\"\/recordings\/\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 1,
+      "value": "\"\/finish\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2154,
+      "length": 9,
+      "value": "\"sdkInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2201,
+      "length": 9,
+      "value": "\"appInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2248,
+      "length": 8,
+      "value": "\"osInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2293,
+      "length": 12,
+      "value": "\"deviceInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2346,
+      "length": 10,
+      "value": "\"userInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2395,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2890,
+      "length": 9,
+      "value": "\"sdkInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2937,
+      "length": 9,
+      "value": "\"appInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2984,
+      "length": 8,
+      "value": "\"osInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
+      "length": 12,
+      "value": "\"deviceInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 3082,
+      "length": 10,
+      "value": "\"userInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 3131,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "Array",
+      "offset": 3683,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 3791,
+      "length": 10,
+      "value": "\"fragment\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 3859,
+      "length": 9,
+      "value": "\"video\/*\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 3948,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingService.swift",
+      "kind": "StringLiteral",
+      "offset": 4424,
+      "length": 21,
+      "value": "\"https:\/\/rec.effi.io\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "StringLiteral",
       "offset": 148,
       "length": 49,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 1,
-      "value": "4"
+      "value": "5"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/Version.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Version.swift",
       "kind": "StringLiteral",
       "offset": 297,
-      "length": 3,
-      "value": "\"7\""
+      "length": 10,
+      "value": "\"0-beta.1\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 3,
+      "value": "228"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 3,
+      "value": "228"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 260,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 3,
+      "value": "231"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 291,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 391,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 405,
+      "length": 2,
+      "value": "63"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 424,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 438,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 3,
+      "value": "254"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 549,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 564,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 578,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 671,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 688,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 692,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 2,
+      "value": "58"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 708,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 722,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 814,
+      "length": 3,
+      "value": "176"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 818,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 3,
+      "value": "176"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 836,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 849,
+      "length": 3,
+      "value": "176"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 853,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 867,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 960,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 963,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 977,
+      "length": 2,
+      "value": "99"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 980,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 993,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 997,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1011,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1108,
+      "length": 3,
+      "value": "148"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1112,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1126,
+      "length": 3,
+      "value": "152"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1130,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1143,
+      "length": 3,
+      "value": "156"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1147,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1161,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1268,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1282,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1284,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1297,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1299,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIColor+ScreenRecordingSDK.swift",
+      "kind": "FloatLiteral",
+      "offset": 1313,
+      "length": 4,
+      "value": "0.32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/BundleExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 16,
+      "value": "\"ResourceBundle\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/BundleExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager+KeyboardNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 14,
+      "value": "\"no tokenInfo\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1040,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1262,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1529,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1638,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1730,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1895,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1995,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2141,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2337,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2385,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2436,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2584,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2599,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2688,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2703,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2794,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2810,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3187,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3241,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3308,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3470,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3485,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3580,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3595,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3692,
+      "length": 3,
+      "value": "-50"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3708,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3961,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4254,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4397,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4460,
+      "length": 7,
+      "value": "\"video\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4549,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4558,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4571,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4581,
+      "length": 2,
+      "value": "-5"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4650,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4659,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4847,
+      "length": 2,
+      "value": "37"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4961,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4976,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5077,
+      "length": 3,
+      "value": "-45"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5093,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5168,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5420,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5671,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5908,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6018,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6033,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6130,
+      "length": 3,
+      "value": "-50"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6146,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6217,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6232,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6331,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6347,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6794,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6978,
+      "length": 3,
+      "value": "-40"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7124,
+      "length": 3,
+      "value": "-40"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7195,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7496,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7717,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingPermissionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7899,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager+AppLifecycleNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 2199,
+      "length": 30,
+      "value": "\"ScreenRecordingSDKUploadTask\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager+AppLifecycleNotifications.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager+AppLifecycleNotifications.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2815,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 92,
+      "value": "\"Failed init \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "\" Error: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 795,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 837,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 877,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 914,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 955,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 1001,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
       "kind": "StringLiteral",
       "offset": 1109,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1957,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2046,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2145,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 88,
+      "value": "\"Failed init \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 5,
+      "value": "\" Error: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Model\/TokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
       "kind": "FloatLiteral",
       "offset": 197,
       "length": 5,
       "value": "152.0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
       "kind": "FloatLiteral",
       "offset": 236,
       "length": 4,
       "value": "43.0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
       "kind": "FloatLiteral",
       "offset": 287,
       "length": 4,
       "value": "19.0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "StringLiteral",
+      "offset": 873,
+      "length": 7,
+      "value": "\"video\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "StringLiteral",
+      "offset": 957,
+      "length": 13,
+      "value": "\"video.slash\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
       "kind": "BooleanLiteral",
       "offset": 1858,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2821,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "StringLiteral",
+      "offset": 2883,
+      "length": 15,
+      "value": "\"chevron.right\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "StringLiteral",
+      "offset": 3003,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
       "kind": "BooleanLiteral",
-      "offset": 585,
+      "offset": 3502,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3794,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4066,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4154,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4234,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4318,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4384,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4399,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4479,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4568,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
       "kind": "FloatLiteral",
-      "offset": 709,
+      "offset": 4648,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4665,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4750,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4832,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5021,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5111,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5222,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5314,
+      "length": 4,
+      "value": "-6.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5331,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5405,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5420,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5486,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5501,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5579,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5594,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5664,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5679,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6458,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6495,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6531,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6671,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6693,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6713,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6727,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6784,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6796,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8214,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8323,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 768,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1025,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1096,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10321,
+      "offset": 1250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1289,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1819,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2085,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2090,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3001,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3382,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3539,
+      "length": 3,
+      "value": "-32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3766,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3967,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4015,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4066,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4232,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4247,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4345,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4360,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4460,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4476,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4578,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4594,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4665,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5165,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5326,
+      "length": 3,
+      "value": "-32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5342,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5443,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5768,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5816,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6037,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6052,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6152,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6167,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6269,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6285,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6389,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6838,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7011,
+      "length": 3,
+      "value": "-32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7027,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7134,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7446,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7494,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7545,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7727,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7742,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7848,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7863,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7971,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7987,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8097,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8776,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10008,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 10927,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11022,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11066,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 11105,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11324,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 11694,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 13120,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13619,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "Array",
+      "offset": 13919,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 16747,
+      "length": 34,
+      "value": "\"UISupportedInterfaceOrientations\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16994,
+      "length": 32,
+      "value": "\"UIInterfaceOrientationPortrait\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17051,
+      "length": 42,
+      "value": "\"UIInterfaceOrientationMaskLandscapeRight\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17124,
+      "length": 46,
+      "value": "\"UIInterfaceOrientationMaskPortraitUpsideDown\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17205,
+      "length": 37,
+      "value": "\"UIInterfaceOrientationLandscapeLeft\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
       "length": 27,
       "value": "\"RECORDING_ID_DEFAULTS_KEY\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
       "kind": "StringLiteral",
-      "offset": 465,
+      "offset": 478,
       "length": 15,
       "value": "\"responseQueue\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "Array",
+      "offset": 1511,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2567,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 11,
+      "value": "\"recording\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3182,
+      "length": 13,
+      "value": "\"recordingId\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3601,
+      "length": 184,
+      "value": "\"Created a recording: tokenID: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3645,
+      "length": 7,
+      "value": "\" SDKInfo: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3665,
+      "length": 7,
+      "value": "\" appInfo: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3690,
+      "length": 6,
+      "value": "\" OSInfo: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3708,
+      "length": 10,
+      "value": "\" deviceInfo: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3734,
+      "length": 8,
+      "value": "\" userInfo: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3756,
+      "length": 11,
+      "value": "\" orientation: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3784,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4325,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4332,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5174,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5181,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5329,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6196,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6203,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6771,
+      "length": 10,
+      "value": "\"fragment\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6867,
+      "length": 12,
+      "value": "\"fragmentId\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7803,
+      "length": 32,
+      "value": "\"screenRecordingSDK.unique_uuid\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingStreamingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8047,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
       "kind": "Array",
       "offset": 553,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1289,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1376,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1556,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1665,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1752,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1798,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1963,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2217,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2425,
+      "length": 18,
+      "value": "\"recordingStopped\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2460,
+      "length": 5,
+      "value": "\"gif\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2725,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2817,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2911,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2978,
+      "length": 3,
+      "value": "210"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2994,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3102,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3302,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3350,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3420,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3572,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3587,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3676,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3691,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3782,
+      "length": 3,
+      "value": "-32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3798,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4229,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4280,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4442,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4456,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4551,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4566,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4663,
+      "length": 3,
+      "value": "-32"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4679,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4778,
+      "length": 3,
+      "value": "-30"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4794,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5007,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5216,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5379,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5485,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5501,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5948,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6132,
+      "length": 3,
+      "value": "-54"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6278,
+      "length": 3,
+      "value": "-54"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6451,
+      "length": 9,
+      "value": "\"Errors:\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6537,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6773,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6838,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6929,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStoppedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7248,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 21,
+      "value": "\"image doesn't exist\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 967,
+      "length": 41,
+      "value": "\"image named \"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 1,
+      "value": "\"\" doesn't exist\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 39,
+      "value": "\"image named \"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1159,
+      "length": 1,
+      "value": "\"\" into NSData\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 5,
+      "value": "\"gif\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1463,
+      "length": 55,
+      "value": "\"SwiftGif: This image named \"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 1,
+      "value": "\"\" does not exist\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 59,
+      "value": "\"SwiftGif: Cannot turn image named \"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 1,
+      "value": "\"\" into NSData\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 1908,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2500,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 2770,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 2797,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3302,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3372,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3608,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3653,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4004,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 4302,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4851,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/Extensions\/UIImageExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 5039,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 723,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 38,
+      "value": "\"unexpectedError.localizedDescription\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 937,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 943,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1471,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1854,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1904,
+      "length": 35,
+      "value": "\"GeneralServerResponseErrorMessage\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1950,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2030,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/BaseUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2037,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 931,
       "length": 26,
       "value": "\"JSON object is not valid\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 965,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 26,
       "value": "\"Unexpected error occured\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1174,
       "length": 33,
       "value": "\"Create recording request failed\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1299,
       "length": 32,
       "value": "\"Load token info request failed\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1424,
       "length": 34,
       "value": "\"Video size is over the threshold\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1545,
       "length": 29,
       "value": "\"Video editing general error\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1668,
       "length": 38,
       "value": "\"Video editing interrupted with error\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1793,
       "length": 28,
       "value": "\"TokenInfo is not available\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1900,
       "length": 19,
       "value": "\"Token is disabled\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2003,
       "length": 24,
       "value": "\"RecordingID is missing\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2138,
       "length": 47,
       "value": "\"Called startRecording while already recording\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/Utils\/ScreenRecordingSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2271,
       "length": 27,
       "value": "\"Recorder is not available\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
       "offset": 594,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
       "offset": 655,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
       "offset": 719,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 916,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 968,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "Array",
       "offset": 1133,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 1197,
       "length": 18,
       "value": "\"apiRequestsQueue\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 1276,
       "length": 21,
       "value": "\"idleCheckTimerQueue\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 1361,
       "length": 24,
       "value": "\"writerSwitchTimerQueue\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 1441,
       "length": 16,
       "value": "\"recordingQueue\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 1510,
       "length": 39,
       "value": "\"videoVideoConvertingAndStreamingQueue\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1737,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1897,
+      "length": 18,
+      "value": "\"ScreenRecordings\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2018,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2371,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2387,
+      "length": 1,
+      "value": "\".mp4\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2978,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7809,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7862,
+      "offset": 3604,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4129,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4137,
+      "length": 11,
+      "value": "\"Landscape\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4151,
+      "length": 10,
+      "value": "\"Portrait\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4667,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4844,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5258,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5454,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22432,
+      "offset": 5594,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5645,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5999,
+      "length": 11,
+      "value": "\"Landscape\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6013,
+      "length": 10,
+      "value": "\"Portrait\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6294,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6552,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6679,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7328,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7961,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8133,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8186,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8587,
+      "length": 40,
+      "value": "\"Error in video converting or streaming\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10064,
+      "length": 19,
+      "value": "\"Recording stopped\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10349,
+      "length": 23,
+      "value": "\"Error: no assetWriter\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10728,
+      "length": 25,
+      "value": "\"Error: no writer inputs\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11566,
+      "length": 10,
+      "value": "\"full.mp4\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11809,
+      "length": 4,
+      "value": "\"ts\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12031,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12081,
+      "length": 63,
+      "value": "\"-i concat:\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12110,
+      "length": 1,
+      "value": "\" -codec copy \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12143,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12422,
+      "length": 28,
+      "value": "\"Error concatenating videos\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12732,
+      "length": 33,
+      "value": "\"Full video saved to camera roll\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13113,
+      "length": 46,
+      "value": "\"Error: can not find videos for concatenating\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13533,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13825,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14171,
+      "length": 23,
+      "value": "\"Error: no assetWriter\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14600,
+      "length": 25,
+      "value": "\"Error: no writer inputs\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15145,
+      "length": 40,
+      "value": "\"Error in video converting or streaming\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22471,
+      "offset": 15408,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15824,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22511,
+      "offset": 15904,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16196,
+      "length": 4,
+      "value": "\"ts\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17835,
+      "length": 4,
+      "value": "\"ts\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17966,
+      "length": 90,
+      "value": "\"-i \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17981,
+      "length": 1,
+      "value": "\" -v error -codec copy -bsf:v h264_mp4toannexb \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18055,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18324,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18365,
+      "length": 109,
+      "value": "\" -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18473,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 18649,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18808,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 18837,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19229,
+      "length": 20,
+      "value": "\"Submitted fragment\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19418,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20049,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20234,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20376,
+      "length": 210,
+      "value": "\"Command failed with state \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20474,
+      "length": 10,
+      "value": "\"NO STATE\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20485,
+      "length": 3,
+      "value": "\" and rc \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20526,
+      "length": 1,
+      "value": "\". \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20568,
+      "length": 16,
+      "value": "\"NO STACK TRACE\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20585,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20810,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21067,
+      "length": 50,
+      "value": "\"Got error when receiving buffers: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21116,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21528,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22309,
+      "length": 51,
+      "value": "\"startCapture error in completionHandler: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22359,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22719,
+      "length": 55,
+      "value": "\"Trying to handle \"already in recording state\" error\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23255,
+      "length": 19,
+      "value": "\"Recording started\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23320,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23571,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23594,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24298,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24333,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24505,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24528,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24836,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24867,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24922,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24961,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25001,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "Array",
+      "offset": 25251,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25755,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26355,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26477,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26642,
+      "length": 38,
+      "value": "\"Stopping recording due to inactivity\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26871,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27012,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27125,
+      "length": 40,
+      "value": "\"Resuming recording after idle finished\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29022,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29669,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30633,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30638,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30700,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30705,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31184,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31475,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31512,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31556,
+      "length": 5,
+      "value": "64000"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31837,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32129,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32615,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 32845,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 32861,
+      "length": 1,
+      "value": "\".mp4\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 33011,
+      "length": 19,
+      "value": "\"No videoOutputURL\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33051,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33244,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33267,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 33379,
+      "length": 29,
+      "value": "\"WriterError: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 33407,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33429,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 33719,
+      "length": 30,
+      "value": "\"No assetWriter or videoInput\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33770,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34210,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34468,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34561,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 22,
       "value": "\"ScreenRecordingSDK.ScreenRecordingManager\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 34814,
+      "length": 45,
+      "value": "\"Recording stopped due to an error: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 34858,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 34963,
+      "length": 79,
+      "value": "\"Recording stopped due to an error: \""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 35041,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35272,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35303,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
       "kind": "Array",
-      "offset": 254,
+      "offset": 241,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 371,
+      "length": 18,
+      "value": "\"ScreenRecordings\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 492,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 537,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 13,
+      "value": "\"logfile.txt\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
       "length": 9,
       "value": "\"generic\""
     },
     {
-      "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 141,
-      "length": 26,
-      "value": "\"ScreenRecordingSDK.ScreenRecordingEventLogger\""
+      "offset": 1085,
+      "length": 50,
+      "value": "\"Do not log event: Recording timer is not running\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1785,
+      "length": 9,
+      "value": "\"generic\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1937,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "Array",
+      "offset": 2609,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/ScreenRecordingEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2682,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusWindow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 37,
+      "value": "\"Init with coder is not implemented!\""
+    },
+    {
+      "filePath": "\/Users\/jake\/Developer\/ScreenRecordingSDK\/ScreenRecordingSDK\/UI\/RecordingStatusWindow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 957,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
