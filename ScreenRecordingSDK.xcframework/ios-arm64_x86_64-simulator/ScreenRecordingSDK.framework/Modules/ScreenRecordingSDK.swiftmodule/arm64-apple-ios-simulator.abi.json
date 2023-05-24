@@ -750,7 +750,7 @@
       "kind": "StringLiteral",
       "offset": 297,
       "length": 10,
-      "value": "\"0-beta.1\""
+      "value": "\"1-beta.1\""
     },
     {
       "filePath": "\/Volumes\/MyPassport\/Projects2\/ScreenRecordingSDK-sources\/ScreenRecordingSDK\/Model\/TokenInfo.swift",

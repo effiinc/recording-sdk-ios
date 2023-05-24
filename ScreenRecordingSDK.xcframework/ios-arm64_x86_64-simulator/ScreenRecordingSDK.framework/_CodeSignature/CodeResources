@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IHJRcVHrtVXFiBkA/oLejfilbaE=
+		hvB5/gPPqXK2SNOn5ZNRSA35Wks=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PGYDWM74DTjaWsADTgw49I5eDLo=
+		zugMOwZ7HOPfoE1PPiW5rMCXX2Y=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Bjl8PlD3nALKyC8LgX0+6XrX0wI=
+		KzGUYYK1FBojqK3XCUYAT9bjOcg=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PGYDWM74DTjaWsADTgw49I5eDLo=
+		zugMOwZ7HOPfoE1PPiW5rMCXX2Y=
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yvU1NXTgpe//v80Nl3NW6JWxSuw=
+		EQkhUBSicVTCjOsg7FbcMMG1Xos=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JNUj0QSGPx9uZCkdLg125bQTJlyFKIlCG6iaJkj+Ho0=
+			qbMv8NEdgYf0X+dlyCUtXY5kVlgIAEWKWFAsZt3CZZ4=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9qV6k+ZVF+PsIcov1ruopVYFx/fJB3sd8jMExI/80fU=
+			UbQ6bgq8MQ/urzFgp9ilDKckoI29045LQKiHBJg5CP8=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JNUj0QSGPx9uZCkdLg125bQTJlyFKIlCG6iaJkj+Ho0=
+			qbMv8NEdgYf0X+dlyCUtXY5kVlgIAEWKWFAsZt3CZZ4=
 			</data>
 		</dict>
 		<key>Modules/ScreenRecordingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9lToW01kR4qylKIakssdz5k0trhJYNo5AmCdltDw/8=
+			Q3yVqI872W2uvHhH+HZTTrHATTT+1TigXrbd1rS7CGY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
