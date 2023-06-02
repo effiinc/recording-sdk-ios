@@ -12,11 +12,14 @@ let package = Package(
         .library(
             name: "ScreenRecordingSDK",
             targets: ["ScreenRecordingSDKTarget"]),
+        .library(
+            name: "DependenciesUmbrella",
+            targets: ["DependenciesUmbrellaTarget"]),
     ],
     dependencies: [
         .package(url: "https://github.com/tylerjonesio/ffmpeg-kit-spm/", .upToNextMajor(from: "5.1.0")),
         .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.0")),
-        .package(url: "https://github.com/KaneCheshire/ShowTime.git", .upToNextMajor(from: "2.0.0"))
+        .package(url: "https://github.com/KaneCheshire/ShowTime.git", .upToNextMajor(from: "2.0.0")),
     ],
     targets: [
         .binaryTarget(
@@ -27,9 +30,13 @@ let package = Package(
             dependencies: [
                 .product(name: "FFmpeg-Kit", package: "ffmpeg-kit-spm"),
                 .product(name: "FFmpeg", package: "ffmpeg-kit-spm"),
+                .target(name: "ScreenRecordingSDK", condition: .when(platforms: .some([.iOS])))
+            ]),
+        .target(
+            name: "DependenciesUmbrellaTarget",
+            dependencies: [
                 .product(name: "Moya", package: "Moya"),
                 .product(name: "ShowTime", package: "ShowTime"),
-                .target(name: "ScreenRecordingSDK", condition: .when(platforms: .some([.iOS])))
             ])
     ],
     swiftLanguageVersions: [.v5]
